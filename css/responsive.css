@@ -31,7 +31,7 @@
     .slider_section .detail-box {
         margin-top: 20px;
         text-align: center;
-    }
+    }    
 
     .discount_section .detail-box {
         text-align: center;
@@ -60,11 +60,24 @@
     }
 
     .info_section .info_contact .box {
-        justify-content: center;
+        justify-content: between;
     }
 
     .footer_section p {
         width: auto;
+    }
+    
+    .slider_section .detail-box .top-brand-name{
+        font-size: 1.2em !important;
+    }
+    
+    .health_section .item {        
+        width: 100%;                
+        padding: 7px 20px;
+    }
+
+    .info_section .info_contact .client-address{
+        margin-left: -20px;
     }
 }
 
